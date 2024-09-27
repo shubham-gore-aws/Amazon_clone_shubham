@@ -1,0 +1,114 @@
+.create-account-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    max-width: 375px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 30px;
+  }
+  
+  .amazonlogo {
+    margin-bottom: 20px;
+    width: 200px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .create-account-box {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: -33px;
+  }
+  
+  h2 {
+    font-weight: normal;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .mobile-input {
+    display: flex;
+  }
+  
+  .mobile-input select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .mobile-input input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  small {
+    color: #555;
+  }
+  
+  .verify-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .verify-button:hover {
+    background-color: #ddb347;
+  }
+  
+  .work-account,
+  .sign-in-link {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .business-account-link {
+    color: #007185;
+  }
+  
+  .create-account-footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #555;
+  }
+  
+  .create-account-footer a {
+    color: #555;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .create-account-footer a:hover {
+    text-decoration: underline;
+  }
+  

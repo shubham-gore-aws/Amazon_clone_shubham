@@ -1,0 +1,150 @@
+.login-container {
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    background-color: #ffffff;
+  }
+  
+  .login-box {
+    max-width: 380px;
+    padding: 20px;
+    border-radius: 9px;
+    text-align: center;
+    background-color: white;
+    height: fit-content;
+    border: 1px solid black;
+  }
+  
+  .login-box h2{
+    text-align: justify;
+    text-style: bold;
+    font-weight: 600;
+    font-size: 35px;
+  }
+  .amazonlogo {
+    width: 200px;
+    margin-top: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -20px;
+  }
+  
+  h2 {
+    font-weight: normal;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 6px;
+    margin-top: 10px;
+    color: #111;
+    text-align: justify;
+    FONT-WEIGHT: 600;
+    font-size: 18px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+    border: 1px solid #362c2c;
+    border-radius: 4px;
+  }
+  
+  .continue-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .continue-button:hover {
+    background-color: #e7b23f;
+  }
+  
+  .bycon {
+    color: #555;
+    margin-top: 10px;
+    text-align: justify;
+    FONT-WEIGHT: 600;
+    font-size: 14px;
+    
+  }
+  
+  a {
+    color: #0066c0;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .need-help {
+    display: block;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+  
+  hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+  }
+  
+  .create-account-a{
+    /* font-weight: bold;
+    display: block;
+    ;text-align: center; */
+    border: 1px solid;
+    padding: 5px 90px;
+    margin-top: 14px;
+    width: 100%;
+    border-radius: 10px
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
+    color: #555;
+  }
+  
+  footer a {
+    margin: 0 5px;
+  }
+  
+  footer span {
+    margin: 0 5px;
+    color: #ddd;
+  }
+  
+  .new-to-amazon{
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #111;
+  }
+  .hr-new-amazon{
+    color: black;
+    width: 100px;
+    border: 1px solid rgb(112, 109, 109);
+    
+  }
+  
+
+  
